@@ -1,0 +1,18 @@
+body{
+    margin: 50px;
+}
+h1 {
+display: inline;
+}
+
+.button-container {
+margin-top: 20px;
+}
+#getDataButton{
+background-color: black;
+color: white;
+padding: 10px 50px;
+border-radius: 10px;
+border: 2px solid black;
+font-size: x-large;
+}

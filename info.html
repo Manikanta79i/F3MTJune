@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IP Information</title>
+	<link rel="stylesheet" href="info.css">
+</head>
+<body>
+	<h3>My Public IP Address: <span id="ipData"></span></h3>
+	<div id="locationData">
+	<div class="row">
+		<div class="item" id="latitudeItem"></div>
+		<div class="item" id="cityItem"></div>
+	</div>
+	<div class="row">
+		<div class="item" id="longitudeItem"></div>
+		<div class="item" id="regionItem"></div>
+	</div>
+	<div class="row">
+		<div class="item" id="organizationItem"></div>
+		<div class="item" id="hostnameItem"></div>
+	</div>
+</div>
+    <div id="mapContainer">
+	
+
+	</div>
+	<p class="bold-text" id="timezone"></p>
+	<p class="bold-text" id="datetime"></p>
+	<p class="bold-text" id="pincode"></p>
+	<p class="bold-text" id="message"></p>
+
+	<div id="postOfficeList">
+		<h4>Post Offices:</h4>
+		<input type="text" id="searchBox" placeholder="Search by Name or Branch Office" />
+		<div id="postOfficeData"></div>
+	</div>
+
+	<script src="info.js">
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+#locationData {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+div#locationData {
+    font-weight: 600;
+}
+
+#locationData div {
+margin-right: 130px;
+    margin-bottom: 15px;
+    
+}
+
+#postOfficeList {
+    margin-top: 50px;
+}
+
+#searchBox {
+    margin-top: 10px;
+}
+
+#postOfficeData{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    
+    
+}
+
+.postOfficeInfo {
+    
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.postOfficeInfo p {
+    margin: 0;
+    padding: 20px;
+}
+#searchBox{
+    margin-bottom: 50px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+body{
+    margin: 20px;
+    font-size: x-large;
+}
+.bold-text {
+    font-weight: bold;
+}
